@@ -15,6 +15,9 @@ DocManager
 
 UIManager將UI之間的交互整理。
 答題剩餘的時間GameObject
+# 20190402
+大改整個系統，新增tag, mainmanager, 讓物件搜尋時可以再更快一點。(之後移到主程式中，需要加入)
+更改系統方式，handmouse來觸發整體事件，並呼叫mainmanager.內的函數。
 
 # 20190326
 完成鍵盤的控制handangle,以及觸發相關的按鍵動作。在此以控制mouseIcon的位置，來觸發按鍵。
