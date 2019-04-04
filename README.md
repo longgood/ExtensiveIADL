@@ -15,6 +15,27 @@ DocManager
 
 UIManager將UI之間的交互整理。
 答題剩餘的時間GameObject
+# 20190404
+1.按鍵觸發事件以及進度條(查看之前的結構)
+a.把互動，計算(mouse)，UI進度條(UI)，拆開來處理。
+b.選擇開始時，送出(滑鼠標得index,以及累計兩秒鐘之後送出觸發到manager)，送出進度條自己計算兩秒。兩秒後的互動，讓avguiinteractive來完成。
+  i.Manager(持續的監控取得現在的buttonIndex,不是負一就是按鍵號)，並將資訊送到UIManagery進行圖形，以及決策時間倒數計時(現在UIMouse上這應該要到CalManager)
+  ii.UIManager判斷該buttonIndex是新的或是在舊有的上(MouseOver, or Release)，來進行對應的動畫。
+  
+  當決策時間到數達到兩秒時，會觸發OnClick事件，呼叫Manager上的OnClick,在判定選擇的內容。
+  (抓到了，若按鍵Index相同時，應該要有更長的時間冷卻)
+  
+  iii.選擇時UIManager會觸發對應的動畫，CalManager判定正確性。
+  
+  
+2.能順利完成讀取外部檔案
+3.加上Kinect
+
+
+尚未解決的問題
+1.兩隻手繪競相決定誰指定了indexBTN，雖然已經排除了選取過的，但沒有增加另外一隻手指向答案的權利。(會根據angle2index內的判斷順序)
+2.上一場雨下一場若手一直指向同一個答案，圓環會不見。沒有在對的地方呼叫S
+
 # 20190403
 1.解決了之前的多執行序影響到下個程序問題StopCorountine("DelayAction")，在每個NewTraining開始之前都會先清理。所以就可以用多執行序來排第問題的時間。(似乎還好)
 2.讓Question的展開與結束，成為UIManager下的一個類別。(OK)
@@ -25,13 +46,10 @@ UIManager將UI之間的交互整理。
 a.以四選一或是四多選，會有八個項目。即四個選項個別的title, 與圖檔名
 b.或六選一(之後再說)
 c.或動作互動前與互動後(觸發的動畫等等)的名稱。
-7.順序功能，用answerType來分段。其中correctAnswerList與單選是可以通用的。
+7.順序功能，用answerType來分段。其中correctAnswerList與單選是可以通用的。(ok)
 8.handAngle的互動，不要使用滑鼠游標，而是使用指定的，這樣即使答案選項因為解析度的關係重疊了，也不會有錯誤的觸發。
 9.背景圖檔若相同，就不重複載入
 10.順序選取時，已經正確選過的答案，不應該再被點選到。要在CalManager內將這些選項剃除。
-
-
-
 
 11.連續輸入兩次，要找一下問題出在哪。(時間還是甚麼的?勇敢一點設定進度條有stopmotion, startmotion)
 
