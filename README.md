@@ -34,7 +34,9 @@ b.選擇開始時，送出(滑鼠標得index,以及累計兩秒鐘之後送出�
 
 尚未解決的問題
 1.兩隻手繪競相決定誰指定了indexBTN，雖然已經排除了選取過的，但沒有增加另外一隻手指向答案的權利。(會根據angle2index內的判斷順序)
-2.上一場雨下一場若手一直指向同一個答案，圓環會不見。沒有在對的地方呼叫S
+(CalManager, GetHandAngle2Answer要在TAction內，累積同時有兩個符合的答案?)啊，解決了!!!!
+2.上一場雨下一場若手一直指向同一個答案，圓環會不見。沒有在對的地方呼叫S(solved)
+(解決，先在Manager->NewTraining 開始可以選擇那處，將UIManager內存的Index改成-1。這樣在呼叫decisionBar時，就會出現。)
 
 # 20190403
 1.解決了之前的多執行序影響到下個程序問題StopCorountine("DelayAction")，在每個NewTraining開始之前都會先清理。所以就可以用多執行序來排第問題的時間。(似乎還好)
