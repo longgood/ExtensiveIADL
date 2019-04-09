@@ -15,15 +15,18 @@ DocManager
 
 UIManager將UI之間的交互整理。
 答題剩餘的時間GameObject
+# 20190410
 
 # 20190409
 先以完成出貨產品。包括了加上Kinect,parameter, gameroom，各自的json檔案。
 1.Kinect
-先放到CalManager的子類別內，先用到HandClock即可。單手雙手。
+先放到CalManager的子類別內，先用到HandClock即可。單手雙手。(OK)
 
 2.parameter留意，用不同的parameter與json劇本，來控制。
 
 
+parameter沒有讀取好，有可能是SaveKiiParameter這個函數被刪除了。可以試試看。
+目前統一個一parameter,內有一個Topic隨著不同的訓練，寫入不同的Topic，根據這個Topic，來選定要讀甚麼Json或是在Json裡要怎麼過濾資訊。
 # 20190408
 待完成項目
 0.按電話選擇按電話選擇(OK)
