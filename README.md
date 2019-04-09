@@ -16,14 +16,36 @@ DocManager
 UIManager將UI之間的交互整理。
 答題剩餘的時間GameObject
 
+# 20190409
+先以完成出貨產品。包括了加上Kinect,parameter, gameroom，各自的json檔案。
+1.Kinect
+先放到CalManager的子類別內，先用到HandClock即可。單手雙手。
+
+2.parameter留意，用不同的parameter與json劇本，來控制。
+
 
 # 20190408
 待完成項目
+0.按電話選擇按電話選擇(OK)
+(calmanager內的correctList,以及correctIndex都要修改
+--> a.AVGClass把content改成List<string>
+  b.讀取Value[CurrentIndex]
+  c.修改Repeat Nine CorrectList的內容
+  d.參考KinectAsset若手部控制有優化，就用HandMouse
+  
+  完成，先以四格來計算，之後若是Kinect好操作再來修正。
+  
+0.活動度計算
 1.IADL文字檔讀檔。
 2.IADL結束的場景與分數計算。
 3.Kinect(包括左右手分別，或是同時的選定)
 4.身體活動度選擇
 
+
+
+
+注意事項:
+使用的RIOSave...刪除很多函數，加入大專案時，切記不要替代原有檔案。
 # 20190405
 將該軟體放入主程式內為目標。需要
 1.讀取外部檔
