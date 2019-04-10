@@ -17,6 +17,12 @@ UIManager將UI之間的交互整理。
 答題剩餘的時間GameObject
 # 20190410
 
+AVGParameter
+把mTopic移出常態性的儲存，因為只有在GameRoomV3Prefab內，選擇時就已經確認了mTopic
+但是有將Difficulty先儲存下來，供之後使用。
+參數的儲存與設定，就是該類別的重點。其餘的判定，要拉回到Doc內判定。
+
+
 # 20190409
 先以完成出貨產品。包括了加上Kinect,parameter, gameroom，各自的json檔案。
 1.Kinect
