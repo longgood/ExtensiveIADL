@@ -15,12 +15,27 @@ DocManager
 
 UIManager將UI之間的交互整理。
 答題剩餘的時間GameObject
+
+# 20190411
+返回鍵
+倒數計時
+儲存成績，雲端系統。
+結果成績顯示 OK
+
+計算活動度
+使用者類別
+*增加UserAction的應用類別。
+
+追加，單選答對時，在答案選項上的動畫。
+追加，使用者的大頭照
 # 20190410
 
 AVGParameter
 把mTopic移出常態性的儲存，因為只有在GameRoomV3Prefab內，選擇時就已經確認了mTopic
 但是有將Difficulty先儲存下來，供之後使用。
 參數的儲存與設定，就是該類別的重點。其餘的判定，要拉回到Doc內判定。
+
+加入大project內。花了不少時間在研究加入系統的方法，希望之後改善，或是有個統一的介面窗口。
 
 
 # 20190409
@@ -29,7 +44,7 @@ AVGParameter
 先放到CalManager的子類別內，先用到HandClock即可。單手雙手。(OK)
 
 2.parameter留意，用不同的parameter與json劇本，來控制。
-
+3.剩下手動控制的選擇。
 
 parameter沒有讀取好，有可能是SaveKiiParameter這個函數被刪除了。可以試試看。
 目前統一個一parameter,內有一個Topic隨著不同的訓練，寫入不同的Topic，根據這個Topic，來選定要讀甚麼Json或是在Json裡要怎麼過濾資訊。
