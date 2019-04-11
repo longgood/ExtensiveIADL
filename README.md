@@ -26,8 +26,8 @@ UIManager將UI之間的交互整理。
   內容可以像是，answerCorrect[0] 名稱,answerCorrect[1] 圖檔。//這是通用的部分
                answerCorrect[2] 互動方式的定義。此後每個定義所需要的資源都是固定的。
                
-計算活動度(計算中)
-使用者類別
+計算活動度(計算中)OK, 先讀取基本值存在index中，之後再到usermanagement內去計算。
+使用者疾病類型。直接新增在usermanagement內  OK
 
 追加，在題目框上頭加上進度文字或是進度條。
 追加，單選答對時，在答案選項上的動畫。
