@@ -19,6 +19,13 @@ UIManager將UI之間的交互整理。
 先處理電話撥出，
 已經將專案移出，可以比較快速的編譯與除錯
 
+
+在DocManager內紀錄選擇的數字，在CalManager內比對。
+JudgeAfterResponse回傳最終的結果。一般是TResponse.Click, then TResponse.Finish
+或許可以組成文字，讓畫面呈現。包含錯誤的文字。
+
+---在Judge內重組文字。也判斷。425測試先特定好correctList
+
 # 20190423
 新架構一。修改Shopping,
 五個或是十個場景為一組Set，
