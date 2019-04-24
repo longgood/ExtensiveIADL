@@ -15,6 +15,10 @@ DocManager
 
 UIManager將UI之間的交互整理。
 答題剩餘的時間GameObject
+# 20190424
+先處理電話撥出，
+已經將專案移出，可以比較快速的編譯與除錯
+
 # 20190423
 新架構一。修改Shopping,
 五個或是十個場景為一組Set，
@@ -38,7 +42,7 @@ done。
 //----
 先忽略RKinectManager，在測試版中直接忽略---->RKinectInteraction。都不能用，只有新增的部分才需要加入。
 也忽略LGCloudManager不需要更改。
-
+ParamOrigin--->切記不可以更動到原有的。
 
 # 20190420
 將撥電話的物件，直接個體製作一個，但還是適用原先的按鍵物件先組合。
