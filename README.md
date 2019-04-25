@@ -15,7 +15,7 @@ DocManager
 
 UIManager將UI之間的交互整理。
 答題剩餘的時間GameObject
-# 2019042
+# 20190425
 完成正確度驗證，可以正常使用
 
 
