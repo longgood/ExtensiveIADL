@@ -29,11 +29,14 @@ e. 購物。
 規劃
 1.NextScene. 要改成可以動態調整場景
 2.選擇，會是多選。(1.先從這邊開始)
-3.cal.judge, 會算總量
+3.cal.judge, 會算總量(JudgeAfterResponse)
 oncompletequize內要跳到結束的場景，這個也要注意。
 
 step
-0.回到六個clock情境。
+0.回到六個clock情境。多了一個MultiSix,多選，而且劇本檔中若出現重複的依樣不影響。實際的選擇數量可以依照"correct"這個標籤內的數量來訂。所以畫面上會有 
+蘋果，蘋果，蘋果，蘋果，番茄，小黃瓜。但只選擇兩個蘋果。那麼在劇本檔中。correct, 會有兩個蘋果，wrong中，會有至少四個選項。但實際選擇只有6-correct.count.
+execute:在CalJudge內判斷在這邊判斷，只要名稱跟correct的一樣的就可以了算是正確。
+
 1.測試從單樣多選(蔬果區選兩個蘋果三個鳳梨)，到多樣多選(三旗魚，一醬油)才算正確。
 2.新增Set標籤，來進行跳場景。(留意NextScene,CalJudge, OnCompleteQuize)
 
