@@ -7,7 +7,6 @@ CalManager, 負責將外部感測器與運算的交換整理。
 CalManager負責將(感測器)Kinect的資料整理後，傳入TAction中判斷。將所有的動作判斷都放在TActions內作判斷。
 答案正確與否的判斷，拉到CalManager來做。
 
-
 DocManager
 讀檔敘述檔，讀外部圖形檔，參數等()
 
@@ -16,7 +15,7 @@ DocManager
 UIManager將UI之間的交互整理。
 答題剩餘的時間GameObject
 # 20190508
-* 文字輸出，with color notification
+* 文字輸出，with color notification(yes,已經大改，目前UI不會更替，會一直存在著，僅改變更換場景的內容值)
 * 真3D
 * Kinect
 
