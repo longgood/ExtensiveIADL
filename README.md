@@ -14,7 +14,18 @@ DocManager
 
 UIManager將UI之間的交互整理。
 答題剩餘的時間GameObject
-# 20190508
+# 20190510
+* 按鍵
+遲遲無法解決滑鼠按鍵問題
+必要時自己重寫，但建議白天清醒時在看過一次程式碼。
+或重新一個Scene，看是否有辦法解決問題
+
+* 結帳
+
+* mTopic
+確認其他Topic被影響的程度。
+
+# 20190509
 * 文字輸出，with color notification(yes,已經大改，目前UI不會更替，會一直存在著，僅改變更換場景的內容值)
 * 真3D
 * Kinect
