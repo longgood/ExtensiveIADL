@@ -27,6 +27,16 @@ UIManager將UI之間的交互整理。
 
 * mTopic
 確認其他Topic被影響的程度。
+//---
+a.一開始就加入清單
+b.結帳按鍵在平常按下會出現北七提醒
+c.結帳畫面，自動結束或是找錢。
+
+
+
+///--lesson learned
+1.mouse drop is required to add an "InteractionInputModule" script to EventSystem
+2.MiddleCanvas->MiddleCamera, is the universal definer of all those 3D object.
 
 # 20190509
 * 文字輸出，with color notification(yes,已經大改，目前UI不會更替，會一直存在著，僅改變更換場景的內容值)
