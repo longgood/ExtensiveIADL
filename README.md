@@ -28,14 +28,17 @@ d.結束後的話語。回饋。
 //---actions go
 1.讓結帳畫面可以跑。//應該設甚麼樣的標籤。可能涉互動式標籤，讓他的觸發只有在條件滿足時才成立，還是直接NULL過場?
 2.結束後的話語與回饋
-
 檢查其他的。
 
 
 新增NULL。
-//--
+//--action
 * 1.新增可以讀兩個resource。
-* 2.
+* 2. 確認標籤。與測試。來用interactive是是
+
+OnTriggerCount<--在這邊觸發結束。OK
+3. 沒有比較與計算到現有的物件。(確認有沒有完成。)
+
 # 20190510
 快了，快要到了!!
 * 按鍵
@@ -54,8 +57,6 @@ d.結束後的話語。回饋。
 a.一開始就加入清單(OK)
 b.結帳按鍵在平常按下會出現北七提醒(只有完成時才會有結帳!!)
 c.結帳畫面，自動結束或是找錢。(手動付錢)
-
-
 
 ///--lesson learned
 1.mouse drop is required to add an "InteractionInputModule" script to EventSystem
