@@ -46,11 +46,14 @@ OK
 
 3.群組標籤Script劇本設定，完成。->測試複合組合OK。
 
+
+帥帥!!
 4.新增過場標籤
-NULL
+-->NULL
 5.新增二選一標籤。
 
-
+**AVGUIOption->GoToNextScene**
+若不想所有Topic的NULLPASS都直接跳過的話，來這邊確認
 
 **須注意，超時的StoreShopping是直接結束，而其他的則是跳到下一個。分數計算StoreShopping只有一百分，但是若是中離，應該是多少(後續再計算)?**
 
