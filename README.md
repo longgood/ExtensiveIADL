@@ -52,8 +52,11 @@ OK
 -->NULL
 5.新增二選一標籤。
 
-**AVGUIOption->GoToNextScene**
+**修改待確認**
+** a.AVGUIOption->GoToNextScene**
 若不想所有Topic的NULLPASS都直接跳過的話，來這邊確認
+把原本要移到子層的Goto，改成在AVGUIOption內直接執行。
+(待檢查問題)
 
 **須注意，超時的StoreShopping是直接結束，而其他的則是跳到下一個。分數計算StoreShopping只有一百分，但是若是中離，應該是多少(後續再計算)?**
 
