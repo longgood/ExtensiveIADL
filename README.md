@@ -44,7 +44,7 @@ OK
 (卡在SetAnswerOptions，先前因為StoreShoppingUI動過設定，導致一樣傳入值為0的phone位置跑掉。)
 搞定，先用單一GenerateOptionUI，之後有機會在優化吧!
 
-3.群組標籤Script劇本設定，完成。
+3.群組標籤Script劇本設定，完成。->測試複合組合OK。
 
 4.新增過場標籤
 NULL
@@ -52,7 +52,7 @@ NULL
 
 
 
-**須注意，超時的StoreShopping是直接結束，而其他的則是跳到下一個。分數計算StoreShopping只有一百分，但是若是中離，應該是多少(後續再計算)?
+**須注意，超時的StoreShopping是直接結束，而其他的則是跳到下一個。分數計算StoreShopping只有一百分，但是若是中離，應該是多少(後續再計算)?**
 
 # 20190511
 
