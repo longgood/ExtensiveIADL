@@ -24,9 +24,13 @@ UIManager將UI之間的交互整理。
 (StoreShopping沒有左右手選項。沒有時間。都預設超長好了)
 * 4.我想玩玩煮菜
 
-//---在onclickanswercrash, onclickanswerfinish內，加入 刪除resources.
-(要留意是否對storeshopping造成影響。)
+* //---在onclickanswercrash, onclickanswerfinish內，加入 刪除resources.
+* (要留意是否對storeshopping造成影響。)
 
+
+///---通用型的拖曳
+
+在物件上曾一個label,達成目標後會自動結束的。
 
 # 20190513
 * 1.結帳時，會自動多出一個一百元。
