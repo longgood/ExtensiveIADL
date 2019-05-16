@@ -16,6 +16,17 @@ UIManager將UI之間的交互整理。
 答題剩餘的時間GameObject
 # 20190516
 等待消除物件，確認一下。clickright是否有正確消除flexible物件。以及，有沒有完整的將KinectAccess去除。
+
+# 20190515
+** Cooking
+選擇不同的食材，放進鍋子裡。
+** Med
+從藥盒拿出藥來吃，背景是告知現在幾點，該選擇甚麼樣的藥。
+** HouseKeeping
+把衣服放進 top load wash maching
+
+全部都先從抓放開始。
+
 # 20190514
 * 1.二選一 OK
 二選項確認選擇時是否正確。
